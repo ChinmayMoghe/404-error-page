@@ -11,6 +11,9 @@
   --gray-2: #4f4f4f;
   --gray-3: #bdbdbd;
   --light: #ffffff;
+  --font-1: 'Space Mono', monospace;
+  --font-2: 'Inconsolata', monospace;
+  --font-3: 'Montserrat', sans-serif;
 }
 
 html {
@@ -19,7 +22,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: 'Space Mono', monospace;
+  font-family: var(--font-1);
 }
 
 @keyframes zoom {
@@ -39,7 +42,7 @@ img {
 }
 
 .title {
-  font-family: 'Inconsolata', monospace;
+  font-family: var(--font-2);
   font-size: 2.4rem;
   padding-left: 7.7rem;
   padding-top: 4rem;
@@ -99,7 +102,7 @@ img {
 }
 
 .credits__link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-3);
   font-weight: 500;
   color: var(--gray-3);
 }
