@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404 error page}</h1>
+<h1 align="center">404 error page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -36,16 +36,19 @@
 
 ## Overview
 
-[screenshot](<blockquote class="imgur-embed-pub" lang="en" data-id="q6l1aey" data-context="false" ><a href="//imgur.com/q6l1aey"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
+![screenshot](https://i.imgur.com/q6l1aey.jpg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+- Where can I see your demo?  
   [Demo](https://mystifying-volhard-3ef610.netlify.app/)
-- What was your experience?
+
+- What was your experience?  
   Pretty quick to develop since , only has HTML and CSS
-- What have you learned/improved?
+
+- What have you learned/improved?  
   Added custom CSS variables in CSS
+  Added animation to animate scarecrow image
 
 ### Built With
 
@@ -67,4 +70,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/ChinmayMoghe/)
+- GitHub [@ChinmayMoghe](https://github.com/ChinmayMoghe/)
