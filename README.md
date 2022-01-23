@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://mystifying-volhard-3ef610.netlify.app/">
+    <a href="https://mystifying-volhard-3ef610.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/ChinmayMoghe/404-error-page">
+    <a href="https://github.com/ChinmayMoghe/404-error-page" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
