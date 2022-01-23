@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-1: #333333;
+  --gray-2: #4f4f4f;
+  --gray-3: #bdbdbd;
+  --light: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+img {
+  max-width: 100%;
+  transform: scale(0);
+  animation: zoom 1s ease-in-out forwards;
+  image-rendering: crisp-edges; /*Avoid blurring image due to transform*/
+}
+
+.title {
+  font-family: 'Inconsolata', monospace;
+  font-size: 2.4rem;
+  padding-left: 7.7rem;
+  padding-top: 4rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.container__section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.error__title {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 9.4rem;
+  padding-bottom: 3.6rem;
+}
+
+.error__msg {
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+  color: var(--gray-2);
+  width: 70%;
+  padding-bottom: 6.4rem;
+}
+
+.btn__back {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  background-color: var(--gray-1);
+  color: var(--light);
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  border: none;
+  padding: 2.4rem 4.3rem 2.3rem 4.3rem;
+}
+
+.btn__back:hover {
+  cursor: pointer;
+}
+
+.credits {
+  width: 100%;
+  text-align: center;
+  color: var(--gray-3);
+  font-size: 1.4rem;
+  margin: 2.4rem 0;
+  padding: 1rem;
+}
+
+.credits__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: var(--gray-3);
+}
+
+@media only screen and (max-width: 426px) {
+  .container {
+    flex-direction: column;
+  }
+  .container__section {
+    width: 100%;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .title {
+    padding-left: 2.4rem;
+    padding-top: 2rem;
+  }
+  .error__title {
+    font-size: 4.8rem;
+    line-height: 7.1rem;
+    padding-bottom: 3rem;
+  }
+  .error__msg {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    padding-bottom: 6.6rem;
+  }
+  @keyframes zoom {
+    0% {
+      transform: scale(0.1);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+}
